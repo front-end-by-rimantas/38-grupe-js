@@ -62,3 +62,5 @@ console.log(Math.max(...marks4));
 console.log(Math.max(...marks5));
 console.log(Math.max(...marks6));
 console.log(Math.max(...marks7));
+
+// ... spread operator
