@@ -52,3 +52,13 @@ console.log(maxNumber(marks4));
 console.log(maxNumber(marks5));
 console.log(maxNumber(marks6));
 console.log(maxNumber(marks7));
+
+console.log('------------------');
+console.log(Math.max(...marks));
+console.log(Math.max(...marks1));
+console.log(Math.max(...marks2));
+console.log(Math.max(...marks3));
+console.log(Math.max(...marks4));
+console.log(Math.max(...marks5));
+console.log(Math.max(...marks6));
+console.log(Math.max(...marks7));
