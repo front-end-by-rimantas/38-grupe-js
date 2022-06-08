@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "spread": "nodemon ./spread.js",
+    "spread": "nodemon ./js/spread.js",
+    "obj": "nodemon ./js/object.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
