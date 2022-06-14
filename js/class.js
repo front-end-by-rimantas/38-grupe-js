@@ -3,6 +3,7 @@ console.clear();
 class Dog {
     constructor(name) {
         this.name = name;
+        this.boneCount = 0;
     }
 
     sayHi() {
@@ -16,6 +17,10 @@ class Dog {
     voice() {
         return `${this.name}: Au au!`;
     }
+
+    newBone() {
+        return `${this.name}: ${'🦴'.repeat(++this.boneCount)}!`;
+    }
 }
 
 const rex = new Dog('Rex');
@@ -26,3 +31,5 @@ console.log(rex.newBone());                 // Rex: 🦴!
 console.log(rex.newBone());                 // Rex: 🦴🦴!
 console.log(rex.newBone());                 // Rex: 🦴🦴🦴!
 console.log(rex.newBone());                 // Rex: 🦴🦴🦴🦴!
+rex.changeVoice('bark');
+console.log(rex.voice());                   // Rex: Bark bark!
