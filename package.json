@@ -8,6 +8,7 @@
         "spread": "nodemon ./js/spread.js",
         "obj": "nodemon ./js/object.js",
         "map": "nodemon ./js/map.js",
+        "class": "nodemon ./js/class.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
