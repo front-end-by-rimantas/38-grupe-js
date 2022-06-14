@@ -46,6 +46,7 @@ class Dog {
 class Cat {
     constructor(name) {
         this.name = name;
+        this.mouseCount = 0;
     }
 
     sayHi() {
@@ -54,6 +55,10 @@ class Cat {
 
     sayGoodbye(otherName = 'mielas drauge') {
         return `${this.name}: Iki ${otherName}!`;
+    }
+
+    newMouse() {
+        return `${this.name}: ${'🐭'.repeat(++this.mouseCount)}!`;
     }
 }
 
@@ -72,7 +77,7 @@ console.log(rex.voice());                   // Rex: Bark bark!
 const rainis = new Cat('Rainis');
 console.log(rainis.sayHi());                // Rainis: Labas!
 console.log(rainis.sayGoodbye('Petrai'));   // Rainis: Iki Petrai!
-console.log(rex.newMouse());                // Rainis: 🐭!
-console.log(rex.newMouse());                // Rainis: 🐭🐭!
-console.log(rex.newMouse());                // Rainis: 🐭🐭🐭!
-console.log(rex.newMouse());                // Rainis: 🐭🐭🐭🐭!
+console.log(rainis.newMouse());             // Rainis: 🐭!
+console.log(rainis.newMouse());             // Rainis: 🐭🐭!
+console.log(rainis.newMouse());             // Rainis: 🐭🐭🐭!
+console.log(rainis.newMouse());             // Rainis: 🐭🐭🐭🐭!
