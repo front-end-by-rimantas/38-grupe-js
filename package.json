@@ -10,6 +10,7 @@
         "map": "nodemon ./js/map.js",
         "class": "nodemon ./js/class.js",
         "class-extend": "nodemon ./js/class-extend.js",
+        "class-router": "nodemon ./js/class-router.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
