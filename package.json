@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "nodemon",
+        "desctructuring": "nodemon ./js/desctructuring.js",
         "spread": "nodemon ./js/spread.js",
         "obj": "nodemon ./js/object.js",
         "map": "nodemon ./js/map.js",
