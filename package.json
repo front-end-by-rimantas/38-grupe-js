@@ -5,6 +5,8 @@
     "main": "index.js",
     "scripts": {
         "dev": "nodemon",
+        "summation": "nodemon ./codewars/summation.js",
+        "cleanString": "nodemon ./codewars/cleanString.js",
         "callback": "nodemon ./js/callback.js",
         "desctructuring": "nodemon ./js/desctructuring.js",
         "spread": "nodemon ./js/spread.js",
