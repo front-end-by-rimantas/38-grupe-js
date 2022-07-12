@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "nodemon",
-        "summation": "nodemon ./codewars/summation.js",
-        "cleanString": "nodemon ./codewars/cleanString.js",
+        "switch": "nodemon ./js/switch.js",
         "2d-array": "nodemon ./js/2d-array.js",
         "callback": "nodemon ./js/callback.js",
         "desctructuring": "nodemon ./js/desctructuring.js",
@@ -16,7 +15,9 @@
         "class": "nodemon ./js/class.js",
         "class-extend": "nodemon ./js/class-extend.js",
         "class-router": "nodemon ./js/class-router.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "summation": "nodemon ./codewars/summation.js",
+        "cleanString": "nodemon ./codewars/cleanString.js"
     },
     "keywords": [],
     "author": "Rimantas",
